@@ -18,7 +18,7 @@ def set_wifi_ssid_psk(ssid, psk):
 	os.system('sudo wpa_cli -i wlan0 save_config')
 
 def main():
-	set_wifi_ssid_psk('BELUGANET_5GEXT', 'D98B3840BF')
+	set_wifi_ssid_psk('ssid', 'pwd')
 
 if __name__ == '__main__':
 	main()
